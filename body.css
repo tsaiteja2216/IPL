@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#topbar {
+    width: 100%;
+    box-shadow: 0 2px 5px #ccc;
+    background-color: #1805efcc;;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 16px 8%
+}
+
+#left-menu {
+    display: inline-flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#logo>a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+#logo {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-right: 16px;
+}
+
+#logo span {
+    font-weight: 800;
+    color: aliceblue;
+}
+
+#left-menu>a {
+    text-decoration: none;
+    color: black;
+    margin-left: 32px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#search-wrapper {
+    width: 100%;
+    max-width: 400px;
+    position: relative;
+}
+
+#search-wrapper>i {
+    position: absolute;
+    color: #999;
+    font-size: 18px;
+    top: 50%;
+    left: 18px;
+    transform: translateY(-50%);
+}
+
+#search-box {
+    width: 100%;
+    border: 1px solid rgb(245, 242, 242);
+    background-color: rgb(245, 242, 242);
+    box-sizing: border-box;
+    padding: 10px 24px 8px 48px;
+    color: black;
+    outline: none;
+}
+
+
+main {
+    padding-bottom: 8%;
+}
+.section-heading {
+    font-size: 28px;
+    font-weight: 800;
+    opacity: 0.8;
+}
+.product-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.homepage-section {
+    padding: 2% 4% ;
+    width: 90%;
+}
+.card {
+    width: 15%;
+min-width: 200px;
+height: auto;
+margin: 30px 10px;
+cursor: pointer;
+background-color:#1805efcc;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+.product-image img {
+    width: 100%; height: 200px;
+}
+.card .details {
+    padding-left: 10px;
+margin: 10px auto;
+background-color: rgb(156 189 255);
+}
+.card .title {
+    text-align: left;
+font-size: 16px;
+font-weight: 400;
+letter-spacing: 0.5px;
+color: rgb(27, 25, 25);
+}
+.card .description {
+    margin-top: 10px;
+text-align: left;
+font-size: 12px;
+color: rgb(110, 110, 110);
+}
+.card .price {
+    margin-top: 10px;
+text-align: left;
+font-size: 15px;
+letter-spacing: 2px;
+color: #009688;
+}
